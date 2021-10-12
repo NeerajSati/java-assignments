@@ -25,14 +25,19 @@ public class ques9 {
     public static boolean isVowel(char c) {
         switch (c) {
             case 'a':
+            case 'A':
                 return true;
             case 'e':
+            case 'E':
                 return true;
             case 'i':
+            case 'I':
                 return true;
             case 'o':
+            case 'O':
                 return true;
             case 'u':
+            case 'U':
                 return true;
             default:
                 return false;
