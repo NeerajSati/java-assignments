@@ -10,10 +10,10 @@
 class box {
     int height, breadth, width;
 
-    box(int height, int breadth, int width) {
-        this.height = height;
-        this.breadth = breadth;
-        this.width = width;
+    box(int h, int b, int w) {
+        height = h;
+        breadth = b;
+        width = w;
     }
 
     void volume() {
@@ -24,9 +24,9 @@ class box {
 
 public class ques1 {
     public static void main(String[] args) {
-        box box1 = new box(1, 1, 1);
-        box box2 = new box(1, 2, 3);
-        box1.volume();
+        box box1 = new box(1, 1, 1);            //Box 1 Demensions
+        box box2 = new box(1, 2, 3);            //Box 2 Demensions
+        box1.volume(); 
         box2.volume();
     }
 }
