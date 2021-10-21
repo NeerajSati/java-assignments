@@ -8,18 +8,18 @@ public class ques5 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
-        System.out.println("Enter the number     ");
+        System.out.println("Enter a number : ");
         int n = scan.nextInt();
         if (isPrime(n)) {
             System.out.println("It is prime number");
         } else {
-            System.out.println("It is not prime number");
+            System.out.println("It is not a prime number");
         }
 
         scan.close();
     }
 
-    public static boolean isPrime(int n) {
+    public static boolean isPrime(int n) {       //Function to check prime
         if (n == 1)
             return false;
         if (n == 2)
