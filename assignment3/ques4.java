@@ -1,6 +1,3 @@
-// 02220902719
-// Sai Prashant Saxena
-
 // WAP to implement stack using arrays in java
 
 package assignment3;
