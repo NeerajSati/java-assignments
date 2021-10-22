@@ -1,9 +1,6 @@
-<<<<<<< HEAD
 // 02220902719
 // Sai Prashant Saxena
 
-=======
->>>>>>> 9854b1bcc08408c11af4357e97f6ba67cbe894d6
 // WAP to implement stack using arrays in java
 
 package assignment3;
